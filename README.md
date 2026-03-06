@@ -48,12 +48,12 @@ g++ (Rev1, Built by MSYS2 project) 13.2.0
 
 ### 步骤 5：编译你的程序
 
-1. 将 `DynamicWallpaper.cpp` 放到任意文件夹（如 `D:\wallpaper\`）
+1. 将 `DynamicWallpaper.cpp` 放到任意文件夹（如 `C:\wallpaper\`）
 2. 打开 **MSYS2 MinGW x64** 终端
 3. 进入目录：
 
 ```bash
-cd /d/wallpaper
+cd /C/wallpaper
 ```
 
 4. 执行编译命令：
@@ -76,3 +76,4 @@ g++ -O2 -D_WIN32_WINNT=0x0601 -mwindows -municode DynamicWallpaper.cpp -o Dynami
 - **GIF 要求**：建议使用 **非透明背景** 的 GIF（否则边缘可能有黑边）
 - **路径注意**：GIF 文件放置路径为 C:\\wallpapers\\animated.gif
 - **性能**：Direct2D 使用 GPU 渲染，即使 4K GIF 也能流畅播放
+
